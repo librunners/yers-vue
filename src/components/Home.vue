@@ -12,7 +12,9 @@
     </tab>
     <div class="weui-panel weui-panel_access">
       <div class="weui-panel__bd">
-        <a
+        <router-link
+          tag="a"
+          :to="'/home/detail/'+index"
           href="javascript:void(0);"
           class="weui-media-box weui-media-box_appmsg"
           v-for="(item,index) in panelList"
@@ -30,7 +32,7 @@
               <span class="price">￥199</span>
             </p>
           </div>
-        </a>
+        </router-link>
       </div>
     </div>
   </div>
@@ -49,14 +51,11 @@ export default {
     })
   },
   methods: {
-    typeCharge () {
+    typeCharge (i) {
       this.panelList.forEach(item => {
-        item.title = item.titlebak + this.typeList[this.index]
+        item.title = item.titlebak + this.typeList[i]
       })
-      console.log(this.index + ' ===' + this.typeList[this.index])
-    },
-    typeChargeBySwiper (currentIndex) {
-      console.log(currentIndex + ' ===' + this.typeList[currentIndex])
+      console.log(i + ' ===' + this.typeList[i])
     },
     getHeight (height) {
       console.log(height)
