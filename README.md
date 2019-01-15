@@ -31,3 +31,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
 `d7d886e24e945f5064d1058d27c8f6f4948a78af`
+`4abc72a9e28a3eb9a1c0867e997be9dda5e83b5b`
