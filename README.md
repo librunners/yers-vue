@@ -41,3 +41,11 @@ Make sure to copy your new personal access token now. You won’t be able to see
  4abc72a9e28a3eb9a1c0867e997be9dda5e83b5b 
 Last used within the last 3 weeks git: https://github.com/ on DESKTOP-UM5TV6V at 14-12月-2018 18:05 — gist, repo
 Personal access tokens function like ordinary OAuth access tokens. They can be used instead of a password for Git over HTTPS, or can be used to authenticate to the API over Basic Authentication.
+
+
+奔跑吧:
+1cebc0dc3cc745a5cd5eebc340eeef545b50fdc1
+
+奔跑吧:
+Sync : 上传完成. GIST ID : fb78236de5b7430411a4592f9bbe1c0f .请在其他计算机上复制并使用此ID以下载设置.
+
